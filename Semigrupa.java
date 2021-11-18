@@ -8,9 +8,10 @@ public class Semigrupa implements Element{
         this.nume=nume;
     }
     @Override
-    public void add(Element e) {
+    public Element add(Element e) {
         // TODO Auto-generated method stub
         studenti.add(e);
+        return e;
     }
     @Override
     public void accept(Visitor visitor)

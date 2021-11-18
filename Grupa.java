@@ -10,9 +10,10 @@ public class  Grupa implements Element
     }
     
     @Override
-    public void add(Element e) {
+    public Element add(Element e) {
         // TODO Auto-generated method stub
         subgrupe.add(e);
+        return e;
         
     }
 

@@ -10,9 +10,10 @@ public class An implements Element
         nume=x;
     }
     @Override
-    public void add(Element e) {
+    public Element add(Element e) {
         // TODO Auto-generated method stub
         grupe.add(e);
+        return e;
         
     }
     @Override

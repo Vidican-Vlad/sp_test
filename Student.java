@@ -9,9 +9,10 @@ public class Student implements Element
         this.email=email;
     }
     @Override
-    public void add(Element e) {
+    public Element add(Element e) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Invalid operation for student class");
+        
     }
     @Override
     public void accept(Visitor visitor)
